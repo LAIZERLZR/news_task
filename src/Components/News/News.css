@@ -1,0 +1,135 @@
+.news-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.news-list__loading {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 32px;
+  color: #ffedcc;
+}
+
+.news-list__refresh-button {
+  display: block;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  background-color: #ff6600;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.news-list__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-list__item {
+  margin-bottom: 16px;
+}
+
+.news-list__block {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffedcc;
+  padding: 16px;
+}
+
+.news-list__link {
+  text-decoration: none;
+}
+
+.news-list__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: #333333;
+}
+
+.news-list__meta {
+  font-size: 14px;
+  color: #333333;
+  margin-top: 8px;
+}
+
+.news-detail {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 16px;
+  background-color: white;
+  color: #333333;
+}
+
+.news-detail__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 8px;
+  color: #333333;
+}
+
+.news-detail__meta {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.news-detail__url {
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.news-detail__url a {
+  color: #333333;
+}
+
+.news-detail__text {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 32px;
+}
+
+.news-detail__text h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+.news-detail__comments {
+  font-size: 18px;
+  color: #333333;
+}
+
+.news-detail__comments h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #333333;
+}
+
+.news-detail__back-link {
+  height: 30px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin-top: 24px;
+}
+
+.news-detail__back-link a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.news-detail__back-link:hover {
+  text-decoration: underline;
+}
